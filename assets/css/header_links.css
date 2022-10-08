@@ -1,0 +1,14 @@
+.header__page_links {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    list-style:none;
+}
+
+.header__page_links a {
+    text-decoration:none !important;
+}
+
+.header__page_links a:hover {
+    text-decoration:underline !important;
+}

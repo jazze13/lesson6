@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('header_links.css');
+
+* {
+    padding:0;
+    margin:0;
+    font-family:'nunito sans', sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+input[type="text"] {
+    box-sizing:border-box;
+}
+
+:root {
+    --background:#DDB77138;
+    --text:#0F0F0F;
+}
+
+main {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.miracle {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:468px;
+}
+
+.top-logo {
+    background:#DDB771;
+    border-radius:100%;
+    width:125px;
+    height:125px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:36px;
+}
+
+.reg_form {
+    background:var(--background);
+    width:100%;
+    margin-top:34px;
+    border-radius:5px;
+    box-sizing:border-box;
+    padding:55px;
+}
+
+.reg_this_site {
+    background:var(--background);
+    padding:20px 58px;
+    width:100%;
+    border-radius:5px;
+    font-weight:300;
+    box-sizing:border-box;
+}
+
+.form__input_wrapper {
+    display:flex;
+    flex-direction:column;
+    margin-bottom:34px;
+}
+
+.form__input_span {
+    font-size:15px;
+    color:var(--text);
+    display:block;
+    margin-bottom:20px;
+}
+
+.form__input {
+    padding:15px;
+    widtH:100%;
+    border:none;
+    border-radius:100px;
+    box-shadow:0 6px 20px #CECECE40;
+}
+
+.text_below_inputs {
+    margin-bottom:44px;
+    font-size:18px;
+    font-weight:300;
+}
+
+.submit_button_wrapper {
+    display:flex;
+    justify-content:flex-end;
+}
+
+.form__submit_button {
+    background:#08A045;
+    padding:15px 30px;
+    font-weight:900;
+    font-size:16px;
+    letter-spacing:2px;
+    border:none;
+    border-radius:100px;
+    color:#fff;
+}
+
+.bottom_links {
+    align-self:flex-start;
+    margin:40px 0 0 40px;
+    color:#0F0F0FB5;
+    font-size:15px;
+}
+
+.politics {
+    font-size:18px;
+    font-weight:300;
+    color:#000;
+    margin-top:95px;
+}

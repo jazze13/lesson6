@@ -10,3 +10,5 @@ function modal_request_sent() {
     document.querySelectorAll('.modal').forEach(element => element.style.display = 'none');
     document.querySelector('.modal_request_sent').style.display = 'block';
 }
+
+document.querySelector('.modal__request')
